@@ -6,6 +6,6 @@
 ########
 
 ### Cleanup
-apt clean -y
-apt autoclean -y
+apt-get clean -y
+apt-get autoclean -y
 

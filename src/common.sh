@@ -422,7 +422,7 @@ function apt_update_skip() {
       # force update
       echo_red "APT Cache needs to be updated!"
       echo_green "Running 'apt update' ..."
-      apt update
+      apt-get update
   fi
 }
 
